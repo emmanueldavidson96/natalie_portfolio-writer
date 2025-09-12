@@ -1,8 +1,8 @@
 import React from "react"
-import "./TestimonialSection.css";
+import "./AboutMe.css";
 
 
-export default function About() {
+export default function AboutMe() {
     return (
       <section className='about-section'>
         <div className='about-left'>

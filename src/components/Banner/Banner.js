@@ -1,7 +1,8 @@
 import React from 'react'
 import "./Banner.css"
-import bannerImage from "../assets/image-contemplative-dark-skinned-woman.png"
-import womanNailsImage from "../assets/icons8-nail-polish-96.png"
+import bannerImage from "../../assets/image-contemplative-dark-skinned-woman.png"
+import womanNailsImage from "../../assets/icons8-nail-polish-96.png"
+import imageStroke from "../../assets/depositphotos_232120828-stock-illustration-vector-brush-strokes-circles-paint-removebg-preview.png"
 
 export default function Banner() {
   return (
@@ -11,6 +12,11 @@ export default function Banner() {
                 src={bannerImage}
                 alt=''
                 className='image'
+            />
+            <img 
+                src={imageStroke}
+                alt=''
+                className='imageStroke'
             />
         </div>
 
