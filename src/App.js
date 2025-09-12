@@ -6,6 +6,8 @@ import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 import Portfolio from './pages/Portfolio';
 import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
+import TestimonialSection from './components/TestimonialSection';
+
 
 function App() {
   return (

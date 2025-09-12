@@ -1,0 +1,100 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #fff;
+    padding: 70px;
+    margin-top: 50px;
+  }
+  
+.about-left {
+    width: 50%;
+  }
+  
+  .about-tag {
+    color: #adff2f; 
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .about-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .about-title span {
+    font-style: italic;
+  }
+  
+  .about-text {
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .skills {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: grid;
+    gap: 20px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
+  }
+  
+  .skills li {
+    margin: 5px 0;
+
+  }
+  
+  .cta-btn {
+    background: #adff2f;
+    color: #111;
+    padding: 12px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .about-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 40%;
+    margin-top: 50px;
+  }
+  
+  .stat-card {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+  }
+
+
+ 
+
+  .stat-card p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #aaa;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-5px);
+  }
+
+
+  
+    
+
+
+
+  
+
+  

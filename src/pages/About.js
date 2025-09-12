@@ -1,7 +1,13 @@
 import React from 'react'
+import TestimonialSection from '../components/TestimonialSection'
 
 export default function About() {
   return (
-    <div>About</div>
-  )
-}
+
+    <div className='about'>
+      < TestimonialSection />
+    </div>
+      
+  ) 
+  
+};
