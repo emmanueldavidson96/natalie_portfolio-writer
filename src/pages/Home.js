@@ -4,6 +4,7 @@ import Banner from "../components/Banner/Banner"
 import Services from '../components/Services/Services'
 import "./Home.css";
 import AboutMe from '../components/AboutMe/AboutMe';
+import MySkills from '../components/MySkills/MySkills';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <Banner />        
         <AboutMe />
         <Services />
+        <MySkills />
     </div>
   )
 }

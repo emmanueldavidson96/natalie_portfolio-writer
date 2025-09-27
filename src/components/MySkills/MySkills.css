@@ -1,0 +1,59 @@
+.section{
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+
+}
+
+.skillz_section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 45%;
+}
+.skillz_top{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.skillz_top .first_card{
+    width: 45%;
+}
+
+.skillz_top .second_card{
+    width: 45%;
+}
+
+.skillz_mid{
+    width: 100%;
+}
+
+.skillz_bottom{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.skillz_bottom .first_card{
+    width: 45%;
+}
+
+.skillz_bottom .second_card{
+    width: 45%;
+}
+
+
+
+.skillz_text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 45%;
+    overflow: hidden;   
+   
+}
