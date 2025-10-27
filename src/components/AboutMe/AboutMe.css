@@ -22,7 +22,7 @@
     margin-bottom: 10px;
     display: flex ;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
   }
   
   .about-title {
@@ -75,7 +75,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 45%;
+    width: 50%;
   }
 
   .about-right-top{
@@ -85,24 +85,25 @@
   }
   .about-right-top .stat-card1{
     width: 55%;
-    height: 200px;
+    height: 150px;
     background: #222;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 2px;
     color: #fff;
     text-align: center;
     transition: transform 0.3s ease;
     flex-direction: column;
     gap: 15px;
+  
   }
 
   .about-right-top .stat-card2{
     width: 40%;
-    height: 200px;
+    height: 150px;
     background: #222;
     padding: 10px;
     text-align: center;
@@ -111,26 +112,15 @@
     gap: 15px;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;
+    border-radius: 2px;
     color: #fff;
     text-align: center;
     transition: transform 0.3s ease;
   }
-  
-  /* .stat-card {
-    background: #222;
-    padding: 10px;
-    text-align: center;
-    border-radius: 8px;
-    color: #fff;
-    text-align: center;
-    transition: transform 0.3s ease;
-
-  } */ 
 
   .about-right-top p {
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
+    font-size: 12px;
+    margin-bottom: 10px;
     color: #aaa;
   }
 
@@ -141,6 +131,73 @@
     transform: translateY(-5px);
   }
 
+
+  .about-right-bottom {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+
+  }
+
+
+  .about-right-bottom .stat-card3 {
+    width: 40%;
+    height: 150px;
+    background: #222;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+  
+
+  }
+
+  .about-right-bottom .stat-card4 {
+
+    width: 55%;
+    height: 150px;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex-direction: column;
+    gap: 15px;
+
+  }
+
+  .about-right-bottom p {
+      font-size: 12px;
+      margin-bottom: 10px;
+      color: #aaa;
+    
+  }
+
+
+  .about-right-bottom .stat-card3:hover{
+      transform: translateY(-5px);
+
+  }
+    
+  .about-right-bottom .stat-card4:hover{
+
+    transform: translateY(-5px);
+
+  }
 
   
     

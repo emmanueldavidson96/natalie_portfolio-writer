@@ -2,69 +2,45 @@
     width: 100%;
     display: flex ;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
     color: white;
     background-color:#111;
 }
 
+.service-tag {
 
-.service-header h4 {
-   color: #7CFC00;
-   margin-bottom: 25px;
-   margin-top: 100px;
-   text-align: center;
-}
-
-.service-header h3 {
-    font-size: 28px;
-    margin-bottom: 35px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-.arrange-card {
-    width: 85%;
-    margin: 0px auto;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.service-card {
-    background: #1c1c1c;
-    padding: 20px;
-    border-radius: 10px;
-    transition: 0.3s ease;
-}
+    margin-top: 50px;
+    color: #7CFC00;
+    font-size: 15px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
 
 
-.service-card:hover {
-    transform: translateY(-5px);
-    background: #222;
 
 }
 
-.service-card h4 {
-    margin-bottom: 15px;
+
+.service-header h2 {
+
+    font-size: 45px;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 25px;
 }
 
-.service-card p {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
 
-.btn {
-    padding: 8px 16px;
-    background: #7CFC00;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    cursor:pointer;
-}
 
 .highlight {
-    font-family: "Pacifico", cursive;
+    font-family: 'Monteserrat', sans-serif;
+    font-style: oblique;
+    
+    
 }
 
 .natalie_services{
@@ -89,17 +65,17 @@
     gap: 15px;
     background-color: #252525;
     padding: 60px 40px 40px 40px;
-    height: 300px;
+    height: 320px;
     position: relative;
 }
 .writer_design h3{
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
 }
 .writer_design p{
     font-weight: 300;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 2rem;
 }
 .writer_design button{
@@ -108,7 +84,7 @@
     width: fit-content;
     padding: 20px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 3px;    
     outline: none;
     border: none;
@@ -116,13 +92,13 @@
 }
 
 .copy_writer{
-    width: 55%;
+    width: 56%;
     display: flex;
     flex-direction: column;
     gap: 15px;
     background-color: #252525;
     padding: 60px 40px 40px 40px;
-    height: 300px;
+    height: 320px;
     position: relative;
 }
 .copy_writer p{
@@ -132,7 +108,7 @@
 }
 
 .copy_writer h3{
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -162,3 +138,238 @@
     left: 50px;
     background-color: #222222;
 }
+
+.second-service-section {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.cms_dev {
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #252525;
+    padding: 60px 30px 60px 30px;
+    height: 350px;
+    position: relative;
+}
+
+.cms_dev h3 {
+
+    font-size: 20px;
+    font-weight: 800px;
+    text-transform: uppercase;
+}
+
+
+.cms_dev p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 2rem;
+}
+
+.cms_dev button {
+
+    background-color: #202020;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 3px;    
+    outline: none;
+    border: none;
+    font-weight: 600;
+
+}
+
+
+.wp-dev {
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #252525;
+    padding: 60px 30px 40px 30px;
+    height: 350px;
+    position: relative;
+}
+
+.wp-dev h3 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.wp-dev p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 2rem;
+
+}
+
+
+.wp-dev button {
+    background-color: #202020;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 3px;    
+    outline: none;
+    border: none;
+    font-weight: 600;
+
+}
+
+.php-dev {
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #252525;
+    padding: 60px 30px 40px 30px;
+    height: 350px;
+    position: relative;
+}
+
+.php-dev h3 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.php-dev p {
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2rem;
+}
+
+.php-dev button {
+    
+    background-color: #202020;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 3px;    
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+
+.Third_service_section {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+
+}
+
+.Brand_id {
+
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #252525;
+    padding: 60px 40px 40px 40px;
+    height: 330px;
+    position: relative;
+}
+
+.Brand_id h3 {
+
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.Brand_id p {
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 2rem;
+
+}
+
+.Brand_id button {
+
+    background-color: #202020;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 3px;    
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+
+.Logo_design {
+
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #252525;
+    padding: 60px 40px 40px 40px;
+    height: 330px;
+    position: relative;
+}
+
+
+.Logo_design h3 {
+
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+
+.Logo_design p {
+
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 2rem;
+
+}
+
+.Logo_design button {
+
+    background-color: #202020;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 3px;    
+    outline: none;
+    border: none;
+    font-weight: 600;
+
+}
+
+
