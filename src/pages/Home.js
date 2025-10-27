@@ -5,6 +5,10 @@ import Services from '../components/Services/Services'
 import "./Home.css";
 import AboutMe from '../components/AboutMe/AboutMe';
 import MySkills from '../components/MySkills/MySkills';
+import MyProjects from '../components/Myprojects/MyProjects';
+import Testimonials from '../components/Testimonials/Testimonials';
+import ContactForm from '../components/ContactForm/ContactForm';
+import NewsLetter from '../components/NewsLetter';
 
 
 export default function Home() {
@@ -14,6 +18,10 @@ export default function Home() {
         <AboutMe />
         <Services />
         <MySkills />
+        <MyProjects/>
+        <Testimonials/>
+        <ContactForm />
+        <NewsLetter />
     </div>
   )
 }
