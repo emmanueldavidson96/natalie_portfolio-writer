@@ -27,7 +27,7 @@
 
 .writerHand{
     position: absolute;
-    bottom: 0;
+    bottom: -150px;
     right: -110px;
     width: 350px;
     height: 350px;

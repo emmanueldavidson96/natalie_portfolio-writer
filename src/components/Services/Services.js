@@ -2,6 +2,14 @@ import React from "react"
 import "./Services.css";
 import { SiLibreofficewriter } from "react-icons/si";
 import { FaCopy } from "react-icons/fa";
+import { RiSpeakFill } from "react-icons/ri";
+import { SiWebflow } from "react-icons/si";
+import { TbFileTypePhp } from "react-icons/tb";
+import { ImPriceTags } from "react-icons/im";
+import { IoLogoBuffer } from "react-icons/io5";
+import { FaStarOfDavid } from "react-icons/fa";
+
+
 
 
 export default function Services() {
@@ -9,10 +17,12 @@ export default function Services() {
     <div className="services-area">
     
       <div className="service-header">
-        <h4>🌟 MY SERVICE PROVIDE</h4>
-        <h3>
-          MY BEST QUALITY <span className="highlight">SERVICE</span>
-        </h3>
+        
+        <h3 className="service-tag">
+          <><FaStarOfDavid  size={18} color="#7CFC00"/> </> MY SERVICE PROVIDE</h3>
+        <h2>
+          MY BEST QUALITY <span className="highlight">SERVICES</span>
+        </h2>
       </div>
 
       {/* <div className="arrange-card">
@@ -115,10 +125,91 @@ export default function Services() {
           </div>
         </div>
 
-        {/* second services section - CMS Dev., WP Dev., and PHP dev. 30% 30% 30% */}
+      
+
+        {/* second services section - CMS Dev., WP Dev., and PHP Dev. 30% 30% 30% */}
+        
+        <div className="second-service-section">
+          
+          {/* CMS Dev */}
+          
+          <div className="cms_dev">
+            <div className="icon-container">
+              <RiSpeakFill size={25} color="#7CFC00"/>
+              </div>
+              <h3>CMS DEVELOPMENT</h3>
+              <p>
+              CMS (Content Management System) development is the process of building,
+              customizing, or extending platforms that allow users to create,
+              manage, and modify digital content.
+              </p>
+              <button>Read More</button>
+              
+        </div>
+            {/* WP Dev */}
+            <div className="wp-dev">
+              <div className="icon-container">
+                <SiWebflow size={25} color="#7CFC00"/>
+                </div>
+                
+                <h3>WP DEVELOPMENT</h3>
+                <p>
+               WordPress Development is the process of building and customizing websites 
+                using the WordPress platform. It allows developers to create tailored 
+                themes, plugins, and features that meet unique business needs. 
+                </p>
+             <button>Read More</button>
+        </div>
+
+        {/* PHP Dev */}
+        <div className="php-dev">
+          <div className="icon-container">
+            <TbFileTypePhp size={25} color="#7CFC00"/>
+            </div>
+          <h3>PHP DEVELOPMENT</h3>
+          <p>
+           PHP Development is the process of building dynamic and interactive 
+           websites or web applications using PHP — a widely used 
+           server-side scripting language.
+          </p>
+          <button>Read More</button>
+      </div>
+
+</div>  
+
         {/* third services section - branding identity and logo design 45% 45% */}
 
-      </div>
-    </div>
-  );
+        <div className="Third_service_section"> 
+          <div className="Brand_id"> 
+            <div className="icon-container"> 
+              <ImPriceTags size={25} color="#7CFC00"/> 
+              </div> 
+              <h3>BRANDING IDENTITY</h3>
+               <p> Branding Identity is about shaping how your audience perceives your brand. 
+                It combines visuals, tone, and strategy to create a consistent image that builds trust and 
+                emotional connection with customers. </p> 
+                <button>Read More</button>
+                 </div>
+
+                  <div className="Logo_design"> 
+                    <div className="icon-container"> 
+                      <IoLogoBuffer size={25} color="#7CFC00"/>
+                  </div>
+
+                  <h3>LOGO DESIGN</h3>
+                  <p>
+                  I design unique, memorable logos that express your brand’s
+                 personality and leave a lasting impression on your audience.A great logo is simple, memorable, and versatile — 
+                 it communicates who you are at a glance and builds instant recognition.
+                 </p>
+                 <button>Read More</button>
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
+);
+
+
 }
